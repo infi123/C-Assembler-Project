@@ -18,10 +18,10 @@ This Assembler project translates assembly code written in a custom assembly lan
 **How to Compile and Run**
 
 1.  Make sure all the required files are in the same directory.
-2.  Compile the project using the command:
+2.1.  Compile the project using the command:
 
     gcc -o Assembler main.c parse.c ...
-
+2.2. Use the makefile
 3.  Run the compiled Assembler with your **.as** file:
 
     ./Assembler inputfile.as
@@ -42,10 +42,6 @@ Errors will be reported with line numbers and specific error messages to facilit
 
 No external dependencies other than standard C libraries.
 
-**License**
-
-Specify the license or state if the code is unlicensed.
-
 **Contact**
 
-Your Name – [YourEmail@example.com](mailto:YourEmail@example.com)
+Roy Ohana – roei141105@gmail.com
